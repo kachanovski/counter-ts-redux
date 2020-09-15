@@ -1,0 +1,31 @@
+.neonButton {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 40, 70);
+    cursor: pointer;
+    color: #0073a8;
+    font-size: 20px;
+    background-color: #222222;
+    margin: 10px;
+}
+
+.neonButton:hover {
+    animation: border-flicker 2s linear forwards;
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+    0 0 12px -1px rgb(0, 180, 230) inset;
+    color: #07b1ff;
+}
+
+.neonButton:disabled {
+    background-color: #2b2b2b;
+    cursor: not-allowed;
+    animation: none;
+    border: 3px solid rgb(230, 0, 120);
+    color: rgb(230, 0, 120);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+    box-shadow: 0 0 15px -1px rgb(230, 0, 120),
+    0 0 12px -1px rgb(230, 0, 120) inset;
+}
