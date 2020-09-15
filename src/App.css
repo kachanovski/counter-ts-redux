@@ -39,9 +39,12 @@
     align-items: center;
     color: #00a86b;
     font-size: 40px;
+    font-family:"Arial Black";
+    border-radius: 10px;
 }
 
 .text {
     color: #00a86b;
     font-size: 40px;
+    font-family:"Arial Black"
 }

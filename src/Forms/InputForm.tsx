@@ -1,7 +1,8 @@
 import React from "react";
 import style from './Input.module.css'
+import {WrappedFieldProps} from "redux-form";
 
-export const InputForm = ({input, meta,onChange, ...props}: any) => {
+export const InputForm = ({input, meta, ...props}: WrappedFieldProps) => {
 
     return (
         <div>

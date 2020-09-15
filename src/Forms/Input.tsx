@@ -2,13 +2,14 @@ import React from "react";
 import style from './Input.module.css'
 
 type InputPropsType ={
-    input: number  //????
+    value: number
+    readonly?: boolean
 }
 
-export const Input = ({input, ...props}: any) => {
+export const Input = (props: InputPropsType) => {
     return (
             <div>
-                <input readOnly className={style.inputForm} {...input} {...props}/>
+                <input readOnly className={style.inputForm} {...props}/>
             </div>
     )
 }

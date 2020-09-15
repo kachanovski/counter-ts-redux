@@ -3,8 +3,8 @@ export type ValueStateType = {
     max: string
 }
 
-export const validate = (values: any) => {
-    const errors: any = {}  /// ???
+export const validate = (values: ValueStateType) => {
+    const errors= {}  as  ValueStateType
     const startValueParse = parseInt(values.start)
     const maxValueParse = parseInt(values.max)
     if (!startValueParse) {

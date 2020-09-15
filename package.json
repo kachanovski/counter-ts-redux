@@ -1,6 +1,6 @@
 {
   "name": "counter-ts",
-  "homepage": "http://kachanovski.github.io/counter-redux-ts/",
+  "homepage": "https://kachanovski.github.io/counter-ts-redux/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

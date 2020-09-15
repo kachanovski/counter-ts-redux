@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
-import {Button} from "../Forms/ButtonForm";
 import {Input} from "../Forms/Input";
+import { Button } from "../Forms/Button";
 
 type CounterType = {
     value: number
@@ -16,7 +16,7 @@ export const Counter = (props: CounterType) => {
         <div className={"container"}>
             <Input value={props.value}/>
             <div>
-                <Button disabled={props.disableButtonIncrement()}  onClick={props.onClickIncrement} title={"count"}/>
+                <Button disabled={props.disableButtonIncrement()}  onClick={props.onClickIncrement} title={"COUNT"}/>
                 <Button disabled={props.disableButtonReset()}  onClick={props.onClickReset} title={"RESET"}/>
             </div>
 
